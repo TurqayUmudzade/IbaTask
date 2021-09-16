@@ -1,3 +1,0 @@
-Download NodeJS and run the command 'node Tests.js'
-
-
