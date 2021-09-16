@@ -9,8 +9,8 @@ const findCountries = (matrix) => {
     let dirs = [[0, 1], [0, -1], [1, 0], [-1, 0]]
 
     let dfs = (x, y, n) => {
-        if (matrix[x][y] === n)//Found a match, mark it as visited
-            matrix[x][y] = "*"
+
+        matrix[x][y] = "*"
         for (const [dx, dy] of dirs) { // go in 4 directions
             let newX = x + dx
             let newY = y + dy
